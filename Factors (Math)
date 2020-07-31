@@ -1,0 +1,13 @@
+allFactors : function(A){
+	    var arr = [],k=0;
+	    
+         for(var i= 1 ; i <= A ; i++){
+             if(A%i === 0){
+             arr[k]=i;
+             k++;
+         }
+         
+    	}
+    	
+    	return arr;
+	}	
